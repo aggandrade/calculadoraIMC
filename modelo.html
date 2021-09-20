@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora IMC em JavaScript</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilo.css'>
+</head>
+<body>
+    <script src='script.js'></script>
+    <header>
+       
+    </header>
+    <main class="main">
+        <section class="secao">
+            <br><h1 class="txt">Calculadora de IMC</h1>
+            <div>
+                <br><label for="nome" class="txt">Seu nome:</label><br>
+                <input id="nome" placeholder="Digite seu nome:" type="text" /><br>
+            </div>
+
+            <div>
+                <br><label for="kilos" class="txt">Seu peso:</label><br>
+                <input id="kilos" placeholder="Digite seu peso em kilogramas:" type="number" /><br>
+            </div>
+            
+            <div>
+                <br><label for="altura" class="txt">Sua altura:</label><br>
+                <input id="altura" placeholder="Digite sua altura em metros:" type="number"/><br>
+            </div>
+            
+            <div>
+                <br><label for="imc" class="txt">Resultado:</label><br>
+                <input id="resultado" disabled="disabled" /><br>
+            </div>
+            
+            <br><button id="calcular">Calcular</button><br>
+            <br><p id="aviso">O IMC só deve ser interpretado por um profissional da saude!</p>
+        </section>
+    </main>
+    <footer>
+        <p class="txt">&copy; Artur Gonzaga - 3A1</p>
+    </footer>
+
+</body>
+</html>
+

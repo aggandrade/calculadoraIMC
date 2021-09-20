@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color: #DFDBE5;
+    background-image: url(https://data.1freewallpapers.com/download/apple-inc-light-pink-lines-abstraction-4k-5k-abstract.jpg)
+        
+  } 
+.txt{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    opacity: 1;
+  }
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+.secao{
+    text-align: center;
+    background-color: #2d9654;
+    border-radius: 15px;
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    opacity: 0.4;
+  }
+
+
+button{
+  width: 100px;
+  height: 40px;
+  background-color: red;
+}
+input{
+  width: 300px;
+  height: 30px;
+}
+header{
+  background-color: #2d9654;
+  height: 70px;
+  opacity: 0.4;
+}
+footer{
+  background-color: #2d9654;
+  height: 70px;
+  opacity: 0.4;
+
+}
+#aviso{
+  font-size: 13px;
+}
